@@ -667,9 +667,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp 15.25  //3DPG
-    #define DEFAULT_Ki  0.97
-    #define DEFAULT_Kd 59.78
+    #define DEFAULT_Kp 15.37
+    #define DEFAULT_Ki  1.06
+    #define DEFAULT_Kd 55.64
   #endif
 #endif
 
