@@ -1263,7 +1263,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION    //3DPG Testing with and without it
+// #define S_CURVE_ACCELERATION    //3DPG Testing with and without it
 
 //===========================================================================
 //============================= Z Probe Options =============================
@@ -2244,7 +2244,7 @@
  *    P1  Raise the nozzle always to Z-park height.
  *    P2  Raise the nozzle by Z-park amount, limited to Z_MAX_POS.
  */
-//#define NOZZLE_PARK_FEATURE   //3DPG
+// #define NOZZLE_PARK_FEATURE   //3DPG
 
 #if ENABLED(NOZZLE_PARK_FEATURE)
   // Specify a park position as { X, Y, Z_raise }
