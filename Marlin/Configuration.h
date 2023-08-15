@@ -734,7 +734,7 @@
  * the issues involved, don't use bed PID until someone else verifies that your hardware works.
  * @section bed temp
  */
-#define PIDTEMPBED    //3DPG
+#define PIDTEMPBED
 
 //#define BED_LIMIT_SWITCHING
 
@@ -757,9 +757,9 @@
   //#define DEFAULT_bedKd 305.4
 
   // Artillery Hornet
-  #define DEFAULT_bedKp  92.75      //3DPG
-  #define DEFAULT_bedKi  15.67  
-  #define DEFAULT_bedKd 366.04
+  #define DEFAULT_bedKp  91.40
+  #define DEFAULT_bedKi  14.65 
+  #define DEFAULT_bedKd 380.24
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
